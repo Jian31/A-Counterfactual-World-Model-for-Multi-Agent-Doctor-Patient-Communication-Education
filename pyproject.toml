@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "apwm"
+version = "0.1.0"
+description = "Counterfactual affective patient world model for clinical communication education"
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.24", "scipy>=1.10", "torch>=2.0"]
+
+[tool.setuptools]
+packages = ["apwm"]
